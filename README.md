@@ -9,10 +9,11 @@ bg-image div
         logo
         text
     credit
-text div
-    top text
-    form div
-        inputs
+main-text div
+    top-text div
+    form 
+        form div
+            inputs
     submit button
     login text
 
