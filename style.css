@@ -2,6 +2,10 @@
     font-size: large;
 } */
 
+div.main {
+    display: flex;
+}
+
 img.bg-fern {
     width: 600px;
     height: 800px;
