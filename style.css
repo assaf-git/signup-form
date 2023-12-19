@@ -2,11 +2,16 @@
     font-size: large;
 } */
 
+body {
+    width: 100%;
+}
+
 div.main {
     display: flex;
 }
 
 img.bg-fern {
-    width: 600px;
-    height: 800px;
+    width: 100%;
+    /* border: 0; */
 }
+
