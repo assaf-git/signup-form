@@ -19,6 +19,7 @@ div.main {
 
 div.bg-image {
     position: relative;
+    width: min(750px, 100%);
 }
 
 div.container {
