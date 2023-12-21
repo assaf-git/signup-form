@@ -50,7 +50,7 @@ div.logo p {
     font-family: odin-font;
     font-size: 4rem;
     color: white;
-    margin: 0;
+    padding-top: 1rem;
 }
 
 img.bg-fern {
