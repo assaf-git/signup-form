@@ -20,6 +20,7 @@ div.main {
 
 div.bg-image {
     position: relative;
+    width: 50%;
 }
 
 div.logo-container {
