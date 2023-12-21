@@ -25,9 +25,9 @@ div.bg-image {
 
 div.logo-container {
     position: absolute;
-    top: 8rem;
+    top: 20%;
     width: max(200px, 100%);
-    height: 5rem;
+    height: 20%;
     background-color: black;
     opacity: 0.33;
 }
@@ -35,15 +35,15 @@ div.logo-container {
 div.logo {
     position: absolute;
     width: 100%;
-    height: 5rem;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 8rem;
+    top: 20%;
 }
 
 div.logo img {
-    height: 4rem;
+    height: 80%;
     color: white;
 }
 
@@ -51,7 +51,7 @@ div.logo p {
     font-family: odin-font;
     font-size: 4rem;
     color: white;
-    padding-top: 1rem;
+    padding-top: 5%;
 }
 
 img.bg-fern {
