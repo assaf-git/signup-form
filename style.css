@@ -4,6 +4,7 @@
 }
 
 * {
+    box-sizing: border-box;
     font-family: sans-serif;
     font-size: 22px;
     /* font-weight: 900; */
@@ -86,3 +87,27 @@ div.bg-image p a {
     padding-left: 45px;
     padding-bottom: 60px;
 }
+
+.form {
+    /* width: 80%; */
+    padding: 20px 0 20px 45px;
+}
+
+label {
+    display: inline-block;
+    width: 50%;
+}
+
+input {
+    width: 250px;
+    /* box-sizing: border-box; */
+}
+
+.form div {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* .submit-container {
+    background-color: #F9FAFB;
+} */
