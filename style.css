@@ -76,9 +76,13 @@ div.bg-image p a {
     /* opacity: 0.7; */
 }
 
+.top-text-container {
+    background-color: #F9FAFB;
+}
+
 .top-text {
     width: 80%;
     padding-top: 120px;
     padding-left: 45px;
-    background-color: #F9FAFB;
+    padding-bottom: 60px;
 }
