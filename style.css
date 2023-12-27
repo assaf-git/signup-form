@@ -95,6 +95,11 @@ div.bg-image p a {
     padding: 20px 0 20px 45px;
 }
 
+.form div {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .form > div > div {
     width: 33%;
     /* width: 380px; */
@@ -125,10 +130,26 @@ input {
     /* font-weight: 200; */
 }
 
-.form div {
-    display: flex;
-    flex-flow: row wrap;
+input:invalid {
+    border: 1px solid red;
 }
+
+input + span {
+    position: relative;
+}
+
+.pwd:required + span::after {
+    position: absolute;
+    content: '* Passwords do not match';
+    font-size: 0.5rem;
+    color: red;
+    bottom: -15px;
+    left: -250px;
+}
+
+/* .pwd {
+    color: blue;
+} */
 
 .submit-container {
     padding: 20px 0 120px 45px;
