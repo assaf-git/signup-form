@@ -7,7 +7,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
     font-size: 22px;
-    /* font-weight: 900; */
+    font-weight: 700; /* why is font weight only bold or not */
 }
 
 body {
@@ -87,6 +87,7 @@ div.bg-image p a {
 .top-text {
     width: 80%;
     padding: 120px 0 60px 45px;
+    /* font-weight: 550; */
 }
 
 .form {
@@ -104,14 +105,24 @@ label {
     display: inline-block;
     width: max(250px, 50%);
     padding-bottom: 2px;
+    color: #575E69;
     font-size: 0.6rem;
+    /* font-weight: 550; */
+    /* font-weight: 200; */
+    letter-spacing: 0.1rem;
 }
 
 input {
     width: 250px;
     box-sizing: border-box;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    background-color: #F9FAFB;
+    color: #575E69;
     padding: 5px;
+    padding-left: 10px;
     font-size: 0.7rem;
+    /* font-weight: 200; */
 }
 
 .form div {
@@ -122,4 +133,25 @@ input {
 .submit-container {
     padding: 20px 0 120px 45px;
     background-color: #F9FAFB;
+}
+
+button {
+    width: 230px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 0.7rem;
+    /* font-weight: 550; */
+    padding: 10px;
+}
+
+.submit-container p,
+.submit-container a {
+    font-size: 0.7rem;
+    /* font-weight: 550; */
+}
+
+.submit-container a {
+    color: #596D48;
 }
