@@ -58,7 +58,7 @@ div.logo p {
 
 img.bg-fern {
     width: max(200px, 100%);
-    height: 900px;
+    height: 900px; /* may remove later */
     /* width: min(700px, 100%); */
     /* height: min(800px, 100%); */
     /* width: 100%; */
@@ -94,14 +94,24 @@ div.bg-image p a {
     padding: 20px 0 20px 45px;
 }
 
+.form > div > div {
+    width: 33%;
+    /* width: 380px; */
+    padding-bottom: 20px;
+}
+
 label {
     display: inline-block;
-    width: 50%;
+    width: max(250px, 50%);
+    padding-bottom: 2px;
+    font-size: 0.6rem;
 }
 
 input {
     width: 250px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 0.7rem;
 }
 
 .form div {
