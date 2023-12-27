@@ -130,6 +130,10 @@ input {
     /* font-weight: 200; */
 }
 
+input:focus {
+    box-shadow: 5px 5px 5px #E5E7EB;
+}
+
 input:invalid {
     border: 1px solid red;
 }
