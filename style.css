@@ -90,6 +90,12 @@ div.bg-image p a {
     /* font-weight: 550; */
 }
 
+.form-container {
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 5px 10px #949292;
+}
+
 .form {
     /* width: 80%; */
     padding: 20px 0 20px 45px;
