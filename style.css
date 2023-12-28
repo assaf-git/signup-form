@@ -155,18 +155,22 @@ input:invalid {
     border: 1px solid red;
 }
 
-input + span {
+/* input + span {
     position: relative;
-}
+} */
 
-.pwd:required + span::after {
-    position: absolute;
+.pwd:required + span::after,
+.pwd-confirm:required + span::after {
+    position: relative;
     content: '* Passwords do not match';
     font-size: 0.5rem;
     color: red;
-    bottom: -15px;
-    left: -250px;
 }
+
+/* .pwd-confirm:required + span::after {
+    position: relative;
+    content: ' ';
+} */
 
 /* .pwd {
     color: blue;
