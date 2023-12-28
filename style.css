@@ -8,6 +8,7 @@
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 700; /* why is font weight only bold or not */
+    color: #383839;
 }
 
 body {
@@ -17,7 +18,6 @@ body {
     justify-content: center;
     width: 100%;
     margin: 0;
-    /* position: relative; */
 }
 
 div.main {
@@ -93,8 +93,6 @@ div.bg-image p a {
 
 .main-text {
     height: 100%;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .top-text-container {
@@ -139,8 +137,6 @@ label {
     padding-bottom: 2px;
     color: #575E69;
     font-size: 0.5rem;
-    /* font-weight: 550; */
-    /* font-weight: 200; */
     letter-spacing: 0.1rem;
 }
 
@@ -154,7 +150,6 @@ input {
     padding: 5px;
     padding-left: 10px;
     font-size: 0.7rem;
-    /* font-weight: 200; */
 }
 
 input:focus {
@@ -165,10 +160,6 @@ input:invalid {
     border: 1px solid red;
 }
 
-/* input + span {
-    position: relative;
-} */
-
 .pwd:required + span::after,
 .pwd-confirm:required + span::after {
     position: relative;
@@ -176,15 +167,6 @@ input:invalid {
     font-size: 0.5rem;
     color: red;
 }
-
-/* .pwd-confirm:required + span::after {
-    position: relative;
-    content: ' ';
-} */
-
-/* .pwd {
-    color: blue;
-} */
 
 .submit-container {
     padding: 20px 0 120px 45px;
